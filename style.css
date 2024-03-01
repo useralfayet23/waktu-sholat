@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap'); */
+
+/* Header Start */
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 121em;
+  height: 68em;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 11em;
+  top: -0.5em;
+  left: 0;
+  right: 0;
+  background-color: #262c65d9;
+  border-radius: 0 0 7em 7em;
+  position: absolute;
+  z-index: 2;
+}
+
+.bq {
+  width: 35em;
+  position: absolute;
+  top: 5em;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.bqcity {
+  position: absolute;
+  top: 2.5em;
+  width: 16em;
+  left: 10em;
+  z-index: 2;
+}
+
+.jam {
+  position: absolute;
+  top: 0.5em;
+  right: 2.3em;
+  color: yellow;
+  font-size: 4.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tanggal {
+  position: relative;
+  width: 45em;
+  height: 2.5em;
+  top: 9em;
+  left: 37.5em;
+  right: 39em;
+  border-radius: 0.8em;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  /* text-align: center; */
+  color: black;
+  background-color: #e59e41;
+  z-index: 2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tglbiasa {
+  display: inline;
+  /* padding: 0.5em; */
+  font-size: 1.8em;
+  margin: 1.2em;
+  margin-left: 3.3em;
+  margin-top: 1em;
+}
+
+/* Header End */
+
+/* Petugas start */
+
+.name {
+  position: absolute;
+  top: 15em;
+  left: 0;
+  z-index: 2;
+}
+.sebagaimuad {
+  color: black;
+  background-color: #e59e41;
+  border-radius: 0 0.3em 0.3em 0;
+  font-family: sans-serif;
+  text-align: left;
+  width: 7em;
+  font-size: 25px;
+  padding-left: 1em;
+  font-weight: bold;
+  /* text-indent: 10px; */
+  top: 15em;
+  left: 0;
+}
+
+#namaOrang {
+  color: aliceblue;
+  background-color: #262c65;
+  border-radius: 0 0.3em 0.3em 0;
+  font-family: 'Poppins', sans-serif;
+  width: 10em;
+  top: 10em;
+  left: 0;
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 1em;
+  z-index: 2;
+}
+
+.sebagaikhot {
+  color: black;
+  background-color: #e59e41;
+  border-radius: 0 0.3em 0.3em 0;
+  text-align: left;
+  width: 10em;
+  font-size: 25px;
+  font-weight: bold;
+  top: 15em;
+  padding-left: 1em;
+  left: 0;
+}
+
+.koht {
+  color: aliceblue;
+  width: 13em;
+  background-color: #262c65;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 0 0.3em 0.3em 0;
+  left: 0;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 1em;
+  text-align: left;
+  z-index: 2;
+}
+
+.sebagaimuad,
+.sebagaikhot {
+  margin-top: 0.5em;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* petugas end */
+
+/* carousel start */
+
+.img {
+  position: absolute;
+  top: 10em;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.slide {
+  position: absolute;
+  width: 121em;
+  transition: 1s opacity ease-in-out;
+}
+
+/* carousel end */
+
+/* footer start */
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50.5em;
+  z-index: 1;
+}
+.nameTi {
+  font-size: 2.3em;
+  color: black;
+  text-align: center;
+  width: 7.2em;
+  padding-top: 1.3em;
+  height: 3.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.namePray {
+  width: 7.2em;
+  background-color: #262c65d9;
+  color: white;
+  margin-top: -1.3em;
+}
+
+#subuh,
+#sunrise,
+#dhuhur,
+#ashar,
+#maghrib,
+#isya {
+  margin-top: 0.01em;
+  height: 2em;
+  background-color: white;
+  padding-top: 0.5em;
+  font-size: 1.5em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 40em;
+  z-index: 1;
+}
+
+@keyframes iniicon {
+  0% {
+    transform: translate(0);
+  }
+
+  15% {
+    transform: translate(4.5px, -4.5px);
+  }
+
+  35% {
+    transform: translate(4.5px, 4.5px);
+  }
+
+  55% {
+    transform: translate(-4.5px, 4.5px);
+  }
+
+  75% {
+    transform: translate(-4.5px, -4.5px);
+  }
+
+  95% {
+    transform: translate(0);
+  }
+}
+
+.con {
+  margin: 5.6em;
+  opacity: 0.3;
+}
+
+.cons {
+  animation: iniicon 4s linear 1s infinite normal both;
+  opacity: 1;
+}
+
+marquee {
+  position: absolute;
+  color: white;
+  top: 29em;
+  left: 0;
+  right: 0;
+  position: absolute;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  text-indent: 10em;
+  word-spacing: 5px;
+  z-index: 2;
+}
+
+.w {
+  word-spacing: 5px;
+}
+/* footer end */
+.Main-1,
+.Main-2 {
+  opacity: 1;
+}
+
+#sub-body-1,
+#sub-body-2,
+#body2,
+#body1 {
+  transition: opacity 1s ease-in-out;
+}
+
+#sub-body-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sub-h {
+  opacity: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (width <= 1900px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header {
+    width: 75.9em;
+    height: 9em;
+  }
+
+  .jam {
+    font-size: 5.5em;
+    right: 2.2em;
+  }
+
+  .name {
+    top: 13em;
+  }
+
+  .sebagaikhot {
+    width: 8em;
+    font-size: 15px;
+  }
+
+  .sebagaimuad {
+    width: 6em;
+    font-size: 15px;
+  }
+
+  #namaOrang {
+    width: 13em;
+    font-size: 13px;
+  }
+
+  #nama_orang {
+    width: 15em;
+    font-size: 13px;
+  }
+
+  .tanggal {
+    top: 7em;
+    left: 24.4em;
+    width: 28em;
+  }
+
+  .tglbiasa {
+    font-size: 1.2em;
+    margin-left: 2.5em;
+    top: 4em;
+  }
+
+  .bq {
+    width: 29em;
+    top: 4em;
+  }
+
+  .bqcity {
+    width: 10em;
+    top: 3em;
+    left: 8em;
+  }
+  .jam {
+    font-size: 3.4em;
+    top: 0.8em;
+  }
+  .slide {
+    width: 76em;
+  }
+  .time {
+    position: absolute;
+    top: 28em;
+    left: -12em;
+    width: 100em;
+    z-index: 2;
+  }
+  .nameTi {
+    width: 20em;
+    padding-top: 10.3em;
+    font-size: 0.5em;
+  }
+  .namePray {
+    width: 6.7em;
+    font-size: large;
+  }
+  #subuh,
+  #sunrise,
+  #dhuhur,
+  #ashar,
+  #maghrib,
+  #isya {
+    font-size: 5em;
+  }
+  .icon {
+    display: inline;
+    top: 23.5em;
+    left: 7.4em;
+    /* margin-right: 40em; */
+  }
+  .con {
+    /* display: none; */
+    margin: 3em;
+    width: 4em;
+    height: 3.9em;
+  }
+  marquee {
+    top: 26.7em;
+    width: 50.8em;
+    font-size: 18px;
+  }
+}

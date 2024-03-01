@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Waktu Sholat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="iqomah.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <div id="body1">
+        <div class="header">
+          <img class="bqcity" src="logo-bq.png" alt="" />
+          <img class="bq" src="Logo Masjid al Qolam putih.png" alt="" />
+          <div class="item">
+            <div id="waktu" class="jam"></div>
+          </div>
+        </div>
+        <div class="tanggal">
+          <div class="tglbiasa" id="tampilkan"></div>
+        </div>
+
+        <div class="name">
+          <div class="sebagaimuad" id="sebagaimuad">Muadzin</div>
+          <div id="namaOrang">-</div>
+          <div class="sebagaikhot" id="sebagaikhot">Khotib Jum'at</div>
+          <div id="nama_orang" class="koht"></div>
+        </div>
+
+        <div class="img" id="imgs">
+          <img src="BG 1-04-min.jpg" alt="" class="slide foto" id="imgs" />
+          <img src="BG 4-04-min.jpg" alt="" class="slide foto" id="imgs" />
+          <img src="BG 3-04-min.jpg" alt="" class="slide foto" id="imgs" />
+          <img src="BG 2-04-min.jpg" alt="" class="slide foto" id="imgs" />
+        </div>
+
+        <div class="time">
+          <!-- <div id="imsak"></div> -->
+          <div class="nameTi subuhs" style="border-radius: 1em 0 0 0" id="subuhs">
+            <div class="namePray" style="border-radius: 1em 0 0 0">SUBUH</div>
+            <div id="subuh">00:00</div>
+          </div>
+          <div class="nameTi syuruqs" id="syuruqs">
+            <div class="namePray">SYURUQ</div>
+            <div id="sunrise">00:00</div>
+          </div>
+          <div class="nameTi zuhurs" id="zuhurs">
+            <div class="namePray">DZUHUR</div>
+            <div id="dhuhur">00:00</div>
+          </div>
+          <div class="nameTi ashars" id="ashars">
+            <div class="namePray">ASHAR</div>
+            <div id="ashar">00:00</div>
+          </div>
+          <div class="nameTi maghribs" id="maghribs">
+            <div class="namePray">MAGHRIB</div>
+            <div id="maghrib">00:00</div>
+          </div>
+          <div class="nameTi isyas" style="border-radius: 0 1em 0 0" id="isyas">
+            <div class="namePray" style="border-radius: 0 1em 0 0">'ISYA</div>
+            <div id="isya">00:00</div>
+          </div>
+        </div>
+        <div class="icon">
+          <img src="subuh.png" class="con" alt="" id="subh" />
+          <img src="syuruq.png" class="con" alt="" id="syurq" />
+          <img src="zuhur.png" class="con" alt="" id="zuhr" />
+          <img src="ashar.png" class="con" alt="" id="ashr" />
+          <img src="magrib.png" class="con" alt="" id="maghrb" />
+          <img src="isya.png" class="con" alt="" id="isy" />
+        </div>
+        <marquee id="marq"> BQ City: Jago Ngaji, Jago Coding | Dibuat Oleh Santri IT Club Bina Qurani</marquee>
+      </div>
+
+      <!-- dibawah ini untuk iqomah VVV -->
+      <div id="body2" class="hidden">
+        <img src="a.jpg" class="img" alt="" />
+        <audio src="akhir.mp3"></audio>
+        <audio src="awal.wav"></audio>
+        <div class="Main-1 hidden" id="sub-body-1">
+          <h1 class="judul">MEMASUKI WAKTU IQOMAH</h1>
+          <div class="kotak">
+            <div class="kotak2">
+              <p class="tulisan" id="minsss">00</p>
+            </div>
+            <div class="kotak2">
+              <p class="tulisan" id="secsss">00</p>
+            </div>
+          </div>
+          <div>
+            <p class="tulisan-bawah" id="motivation"></p>
+          </div>
+        </div>
+        <div class="Main-2 hidden sub-h" id="sub-body-2">
+          <h1 id="textsalat" class="tulisan" style="font-size: 50px; color: white">Selamat menunaikan ibadah salat</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="carousel.js"></script>
+    <script src="iqom.js"></script>
+    <script src="prayTimes.js"></script>
+    <script src="depag.js"></script>
+    <script src="jessen.js"></script>
+  </body>
+</html>

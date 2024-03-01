@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap');
+
+.img {
+  position: absolute;
+  width: 120em;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.judul {
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-weight: bold;
+  margin-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul,
+.kotak,
+.kotak2,
+.tulisan,
+.tulisan-bawah,
+.kotak2 {
+  position: relative;
+  z-index: 3;
+}
+
+.kotak {
+  display: flex;
+  justify-content: center;
+}
+
+.kotak2 {
+  height: 25em;
+  width: 25em;
+  background-color: azure;
+  margin: 1em;
+  /* margin-left: 25px; */
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 2em;
+  padding: auto;
+}
+
+.tulisan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20em;
+  margin-top: -0.1em;
+}
+
+.tulisan-bawah {
+  color: rgb(255, 255, 0);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-size: 2.5em;
+}
+
+@keyframes paperFall {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.kotak2 {
+  animation: paperFall 0.7s ease-in-out;
+}
+
+@media (width <= 1900px) {
+  .img {
+    width: 75em;
+  }
+
+  .judul {
+    font-size: 3em;
+    top: 30px;
+    right: 7.3em;
+  }
+  .kotak2 {
+    width: 15em;
+    height: 15em;
+    margin-top: 5em;
+    right: 22em;
+  }
+
+  .tulisan {
+    font-size: 13em;
+    /* margin-top: 5px; */
+    right: 0.01em;
+  }
+
+  .tulisan-bawah {
+    display: none;
+  }
+}
