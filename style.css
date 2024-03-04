@@ -106,7 +106,7 @@
   left: 0;
 }
 
-#namaOrang {
+#nama-orang {
   color: aliceblue;
   background-color: #262c65;
   border-radius: 0 0.3em 0.3em 0;
@@ -267,11 +267,11 @@
 marquee {
   position: absolute;
   color: white;
-  top: 29em;
+  top: 34em;
   left: 0;
   right: 0;
   position: absolute;
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Roboto', sans-serif;
   text-indent: 10em;
   word-spacing: 5px;
@@ -338,12 +338,12 @@ marquee {
     font-size: 15px;
   }
 
-  #namaOrang {
+  #nama-orang {
     width: 13em;
     font-size: 13px;
   }
 
-  #nama_orang {
+  #namaOrang {
     width: 15em;
     font-size: 13px;
   }
@@ -415,7 +415,7 @@ marquee {
   }
   marquee {
     top: 26.7em;
-    width: 50.8em;
+    width: 50em;
     font-size: 18px;
   }
 }
