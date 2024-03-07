@@ -56,10 +56,10 @@
 
 .tglbiasa {
   position: relative;
-  width: 25em;
+  width: 30em;
   height: 1.5em;
-  top: 5em;
-  left: 21em;
+  top: 6.3em;
+  left: 25.5em;
   display: contents;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@
   align-items: center;
   color: black;
   background-color: #e59e41;
-  font-size: 1.8em;
+  font-size: 1.5em;
   z-index: 2;
   font-family: 'Open Sans', sans-serif;
 }
@@ -312,11 +312,6 @@ marquee {
     height: 9em;
   }
 
-  .jam {
-    font-size: 5.5em;
-    right: 2.2em;
-  }
-
   .name {
     top: 13em;
   }
@@ -343,23 +338,23 @@ marquee {
 
   .tglbiasa {
     font-size: 1.2em;
-    left: 19em;
-    width: 25em;
-    top: 6em;
+    width: 28em;
+    left: 18em;
+    top: 6.5em;
   }
 
   .bq {
-    width: 29em;
+    width: 27em;
     top: 4em;
   }
 
   .bqcity {
     width: 10em;
-    top: 3em;
+    top: 2.8em;
     left: 8em;
   }
   .jam {
-    font-size: 3.4em;
+    font-size: 3em;
     top: 0.8em;
   }
   .slide {
