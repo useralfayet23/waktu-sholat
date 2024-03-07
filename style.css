@@ -54,31 +54,24 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.tanggal {
+.tglbiasa {
   position: relative;
-  width: 45em;
-  height: 2.5em;
-  top: 9em;
-  left: 37.5em;
-  right: 39em;
+  width: 25em;
+  height: 1.5em;
+  top: 5em;
+  left: 21em;
+  display: contents;
+  justify-content: center;
+  align-items: center;
   border-radius: 0.8em;
   display: flex;
   justify-self: center;
   align-items: center;
-  /* text-align: center; */
   color: black;
   background-color: #e59e41;
+  font-size: 1.8em;
   z-index: 2;
   font-family: 'Open Sans', sans-serif;
-}
-
-.tglbiasa {
-  display: inline;
-  /* padding: 0.5em; */
-  font-size: 1.8em;
-  margin: 1.2em;
-  margin-left: 3.3em;
-  margin-top: 1em;
 }
 
 /* Header End */
@@ -348,16 +341,11 @@ marquee {
     font-size: 13px;
   }
 
-  .tanggal {
-    top: 7em;
-    left: 24.4em;
-    width: 28em;
-  }
-
   .tglbiasa {
     font-size: 1.2em;
-    margin-left: 2.5em;
-    top: 4em;
+    left: 19em;
+    width: 25em;
+    top: 6em;
   }
 
   .bq {
