@@ -32,7 +32,7 @@ body{
 }
 
 .bq {
-  width: 35em;
+  width: 23em;
   position: absolute;
   top: 5em;
   left: 50%;
@@ -83,7 +83,7 @@ body{
   position: absolute;
   width: 22em;
   height: 2.5em;
-  top: 9em;
+  top: 8.5em;
   left: 38em;
   right: 5em;
   font-size: 20px;
