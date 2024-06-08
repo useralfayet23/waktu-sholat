@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap'); */
 
 /* Header Start */
@@ -21,7 +22,7 @@ body{
 
 .header {
   width: 100%;
-  height: 11em;
+  height: 13em;
   top: -0.5em;
   left: 0;
   right: 0;
@@ -32,9 +33,9 @@ body{
 }
 
 .bq {
-  width: 23em;
+  width: 50em;
   position: absolute;
-  top: 5em;
+  top: 6.8em;
   left: 50%;
   margin: 0 auto;
   transform: translate(-50%, -50%);
@@ -43,7 +44,7 @@ body{
 
 .bqcity {
   position: absolute;
-  top: 2.5em;
+  top: 3.5em;
   width: 16em;
   left: 10em;
   z-index: 2;
@@ -51,7 +52,7 @@ body{
 
 .jam {
   position: absolute;
-  top: 0.5em;
+  top: 0.8em;
   right: 2.3em;
   color: yellow;
   font-size: 4.5em;
@@ -60,14 +61,14 @@ body{
 
 /* .tglbiasa {
   position: relative;
-  width: 30em;
+  width: 25em;
   height: 1.5em;
-  top: 6.3em;
-  left: 25.5em;
+  top: 7.7em;
+  left: 28.1em;
   display: contents;
   justify-content: center;
   align-items: center;
-  border-radius: 0.8em;
+  border-radius: 0.5em;
   display: flex;
   justify-self: center;
   align-items: center;
@@ -76,17 +77,17 @@ body{
   font-size: 1.5em;
   z-index: 2;
   font-family: 'Open Sans', sans-serif;
-}
- */
+} */
+
 
 .tglbiasa {
   position: absolute;
-  width: 22em;
-  height: 2.5em;
-  top: 8.5em;
-  left: 38em;
+  width: 25em;
+  height: 2em;
+  top: 7em;
+  left: 26em;
   right: 5em;
-  font-size: 20px;
+  font-size: 25px;
   border-radius: 1em 1em 1em 1em;
   display: flex;
   justify-content: center;
@@ -104,7 +105,7 @@ body{
 
 .name {
   position: absolute;
-  top: 15em;
+  top: 18em;
   left: 0;
   z-index: 2;
 }
@@ -191,7 +192,7 @@ body{
 
 /* carousel end */
 
-/* footer start */
+/* Jadwal start */
 
 .time {
   display: flex;
@@ -282,6 +283,7 @@ body{
 }
 
 marquee {
+  position: absolute;
   color: white;
   top: 34em;
   left: 0;
@@ -297,7 +299,7 @@ marquee {
 .w {
   word-spacing: 5px;
 }
-/* footer end */
+
 .Main-1,
 .Main-2 {
   opacity: 1;
@@ -324,6 +326,9 @@ marquee {
 .hidden {
   display: none;
 }
+/* Jadwal end */
+
+/* Responsive Start */
 
 @media (width <= 1900px) {
   body {
@@ -341,28 +346,28 @@ marquee {
 
   .sebagaikhot {
     width: 8em;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .sebagaimuad {
     width: 6em;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   #nama-orang {
     width: 13em;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   #namaOrang {
     width: 15em;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .tglbiasa {
     font-size: 1.2em;
-    width: 28em;
-    left: 18em;
+    width: 24em;
+    left: 20em;
     top: 6.5em;
   }
 
@@ -409,15 +414,15 @@ marquee {
   }
   .icon {
     display: inline;
-    top: 23.5em;
+    top: 24.5em;
     left: 7.4em;
     /* margin-right: 40em; */
   }
   .con {
     /* display: none; */
-    margin: 3em;
-    width: 4em;
-    height: 3.9em;
+    margin: 3.2em;
+    width: 3.5em;
+    height: 2.9em;
   }
   marquee {
     top: 26.7em;
@@ -425,3 +430,89 @@ marquee {
     font-size: 18px;
   }
 }
+/* Responsive End */
+
+/* Style IQomah Start */
+
+
+.img {
+  position: absolute;
+  width: 120em;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.judul {
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-weight: bold;
+  margin-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.judul,
+.kotak,
+.kotak2,
+.tulisan,
+.tulisan-bawah,
+.kotak2 {
+  position: relative;
+  z-index: 3;
+}
+
+.kotak {
+  display: flex;
+  justify-content: center;
+}
+
+.kotak2 {
+  height: 25em;
+  width: 25em;
+  background-color: azure;
+  margin: 1em;
+  /* margin-left: 25px; */
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 2em;
+  padding: auto;
+}
+
+.tulisan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20em;
+  margin-top: -0.1em;
+}
+
+.tulisan-bawah {
+  color: rgb(255, 255, 0);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2.5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  font-size: 2.5em;
+}
+
+@keyframes paperFall {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.kotak2 {
+  animation: paperFall 0.7s ease-in-out;
+}
+
+/* Style Iqomah End */
