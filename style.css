@@ -58,7 +58,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.tglbiasa {
+/* .tglbiasa {
   position: relative;
   width: 30em;
   height: 1.5em;
@@ -74,6 +74,26 @@ body{
   color: black;
   background-color: #e59e41;
   font-size: 1.5em;
+  z-index: 2;
+  font-family: 'Open Sans', sans-serif;
+}
+ */
+
+.tglbiasa {
+  position: absolute;
+  width: 22em;
+  height: 2.5em;
+  top: 9em;
+  left: 38em;
+  right: 5em;
+  font-size: 20px;
+  border-radius: 1em 1em 1em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  background-color: #e59e41;
   z-index: 2;
   font-family: 'Open Sans', sans-serif;
 }
