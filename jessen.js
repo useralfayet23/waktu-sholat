@@ -1,209 +1,148 @@
-const _0x117e89 = _0x241e;
-(function (_0x10eb23, _0x3970fc) {
-  const _0x27e34f = _0x241e,
-    _0x157bf9 = _0x10eb23();
-  while (!![]) {
-    try {
-      const _0x1e7743 =
-        parseInt(_0x27e34f(0x175)) / 0x1 +
-        (-parseInt(_0x27e34f(0x16d)) / 0x2) * (parseInt(_0x27e34f(0x163)) / 0x3) +
-        -parseInt(_0x27e34f(0x167)) / 0x4 +
-        (parseInt(_0x27e34f(0x16f)) / 0x5) * (parseInt(_0x27e34f(0x157)) / 0x6) +
-        parseInt(_0x27e34f(0x184)) / 0x7 +
-        (-parseInt(_0x27e34f(0x185)) / 0x8) * (parseInt(_0x27e34f(0x179)) / 0x9) +
-        -parseInt(_0x27e34f(0x17d)) / 0xa;
-      if (_0x1e7743 === _0x3970fc) break;
-      else _0x157bf9['push'](_0x157bf9['shift']());
-    } catch (_0x497b16) {
-      _0x157bf9['push'](_0x157bf9['shift']());
-    }
-  }
-})(_0x21e4, 0x51250),
-  setInterval(auto, 0x3e8);
+setInterval(auto, 1000);
 function auto() {
-  const _0xa41d9e = _0x241e;
-  let _0x5e06d3 = document[_0xa41d9e(0x17e)]('subuh')[_0xa41d9e(0x169)],
-    _0x4e4261 = document[_0xa41d9e(0x17e)](_0xa41d9e(0x174))[_0xa41d9e(0x169)],
-    _0x36cc5b = document[_0xa41d9e(0x17e)](_0xa41d9e(0x16b))['innerText'],
-    _0x48b14b = document[_0xa41d9e(0x17e)](_0xa41d9e(0x166))[_0xa41d9e(0x169)],
-    _0x29b4dd = document[_0xa41d9e(0x17e)](_0xa41d9e(0x162))['innerText'],
-    _0x58fdc2 = document['getElementById'](_0xa41d9e(0x183))[_0xa41d9e(0x169)];
-  const _0x3c9b5e = new Date();
-  let _0x546f01 = _0x3c9b5e[_0xa41d9e(0x176)](),
-    _0x6fcb31 = _0x3c9b5e['getMinutes'](),
-    _0x4a598c = update(_0x546f01),
-    _0x5967c1 = update(_0x6fcb31),
-    _0x10081a = _0x4a598c + ':' + _0x5967c1,
-    _0x4f9d02 = _0x3c9b5e[_0xa41d9e(0x15b)](),
-    _0x277da3 = document[_0xa41d9e(0x17e)](_0xa41d9e(0x181)),
-    _0x297608 = document[_0xa41d9e(0x17e)](_0xa41d9e(0x164)),
-    _0x117c56 = document[_0xa41d9e(0x17e)]('ustad-container'),
-    _0x2f7731 = document[_0xa41d9e(0x17e)]('sebagaikhot');
-  (document['getElementById'](_0xa41d9e(0x170))[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = _0xa41d9e(0x15e)),
-    (document[_0xa41d9e(0x17e)]('sunrise')[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = 'white'),
-    (document[_0xa41d9e(0x17e)]('dhuhur')[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = _0xa41d9e(0x15e)),
-    (document[_0xa41d9e(0x17e)]('ashar')[_0xa41d9e(0x17c)]['backgroundColor'] = _0xa41d9e(0x15e)),
-    (document[_0xa41d9e(0x17e)](_0xa41d9e(0x162))[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = 'white'),
-    (document[_0xa41d9e(0x17e)]('isya')['style'][_0xa41d9e(0x17f)] = _0xa41d9e(0x15e));
-  let _0x3db8a9 = document['getElementById'](_0xa41d9e(0x159)),
-    _0x51ed87 = document[_0xa41d9e(0x17e)](_0xa41d9e(0x186)),
-    _0x2da256 = document['getElementById'](_0xa41d9e(0x17a)),
-    _0x1430dc = document[_0xa41d9e(0x17e)]('ashr'),
-    _0x547eb2 = document['getElementById']('maghrb'),
-    _0x222a38 = document['getElementById'](_0xa41d9e(0x173));
-  if (_0x10081a < _0x5e06d3) _0x4f9d02 % 0x2 == 0x0 ? (_0x277da3[_0xa41d9e(0x169)] = 'M\x20Isa\x20Arifin') : (_0x277da3[_0xa41d9e(0x169)] = 'Davin\x20Kurniawan'), _0x222a38[_0xa41d9e(0x18a)][_0xa41d9e(0x15d)]('cons');
-  else {
-    if (_0x10081a > _0x5e06d3 && _0x10081a < _0x4e4261)
-      (document['getElementById'](_0xa41d9e(0x15c))[_0xa41d9e(0x169)] = 'Selamat\x20Menunaikan\x20Ibadah\x20Shalat\x20Subuh'),
-        (document['getElementById']('subuh')[_0xa41d9e(0x17c)]['backgroundColor'] = _0xa41d9e(0x17b)),
-        (document['getElementById'](_0xa41d9e(0x170))['style'][_0xa41d9e(0x16a)] = _0xa41d9e(0x178)),
-        _0x3db8a9[_0xa41d9e(0x18a)][_0xa41d9e(0x165)](_0xa41d9e(0x16c));
-    else {
-      if (_0x10081a > _0x4e4261 && _0x10081a < _0x36cc5b)
-        (document[_0xa41d9e(0x17e)](_0xa41d9e(0x174))[_0xa41d9e(0x17c)]['backgroundColor'] = _0xa41d9e(0x17b)),
-          (document[_0xa41d9e(0x17e)](_0xa41d9e(0x174))[_0xa41d9e(0x17c)][_0xa41d9e(0x16a)] = _0xa41d9e(0x178)),
-          _0x4f9d02 % 0x2 == 0x0 ? (_0x277da3[_0xa41d9e(0x169)] = 'Evan\x20El\x20Maska') : (_0x277da3[_0xa41d9e(0x169)] = 'Ranu\x20Raditya\x20D'),
-          _0x51ed87['classList'][_0xa41d9e(0x165)](_0xa41d9e(0x16c)),
-          _0x3db8a9[_0xa41d9e(0x18a)][_0xa41d9e(0x15d)]('cons');
-      else {
-        if (_0x10081a > _0x36cc5b && _0x10081a < _0x48b14b)
-          (document[_0xa41d9e(0x17e)](_0xa41d9e(0x15c))[_0xa41d9e(0x169)] = 'Selamat\x20Menunaikan\x20Ibadah\x20Shalat\x20Dzuhur'),
-            (document[_0xa41d9e(0x17e)]('dhuhur')[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = '#e59e41'),
-            (document[_0xa41d9e(0x17e)](_0xa41d9e(0x16b))[_0xa41d9e(0x17c)][_0xa41d9e(0x16a)] = '1px\x20white\x20solid'),
-            _0x4f9d02 % 0x2 == 0x0 ? (_0x277da3[_0xa41d9e(0x169)] = _0xa41d9e(0x172)) : (_0x277da3['innerText'] = _0xa41d9e(0x158)),
-            _0x2da256[_0xa41d9e(0x18a)]['add'](_0xa41d9e(0x16c)),
-            _0x51ed87[_0xa41d9e(0x18a)][_0xa41d9e(0x15d)](_0xa41d9e(0x16c));
-        else {
-          if (_0x10081a > _0x48b14b && _0x10081a < _0x29b4dd)
-            (document['getElementById']('textsalat')['innerText'] = 'Selamat\x20Menunaikan\x20Ibadah\x20Shalat\x20Ashar'),
-              (document[_0xa41d9e(0x17e)](_0xa41d9e(0x166))[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = _0xa41d9e(0x17b)),
-              (document[_0xa41d9e(0x17e)]('ashar')['style'][_0xa41d9e(0x16a)] = _0xa41d9e(0x178)),
-              _0x4f9d02 % 0x2 == 0x0 ? (_0x277da3[_0xa41d9e(0x169)] = 'Abdul\x20Malik') : (_0x277da3[_0xa41d9e(0x169)] = _0xa41d9e(0x156)),
-              _0x1430dc[_0xa41d9e(0x18a)][_0xa41d9e(0x165)](_0xa41d9e(0x16c)),
-              _0x2da256['classList'][_0xa41d9e(0x15d)]('cons');
-          else {
-            if (_0x10081a > _0x29b4dd && _0x10081a < _0x58fdc2)
-              (document[_0xa41d9e(0x17e)]('textsalat')['innerText'] = 'Selamat\x20Menunaikan\x20Ibadah\x20Shalat\x20Maghrib'),
-                (document[_0xa41d9e(0x17e)](_0xa41d9e(0x162))['style']['backgroundColor'] = _0xa41d9e(0x17b)),
-                (document[_0xa41d9e(0x17e)](_0xa41d9e(0x162))['style'][_0xa41d9e(0x16a)] = _0xa41d9e(0x178)),
-                _0x4f9d02 % 0x2 == 0x0 ? (_0x277da3[_0xa41d9e(0x169)] = 'Nafis\x20Dzu\x20Khairil') : (_0x277da3[_0xa41d9e(0x169)] = _0xa41d9e(0x188)),
-                _0x547eb2[_0xa41d9e(0x18a)][_0xa41d9e(0x165)](_0xa41d9e(0x16c)),
-                _0x1430dc[_0xa41d9e(0x18a)][_0xa41d9e(0x15d)](_0xa41d9e(0x16c));
-            else
-              _0x10081a > _0x58fdc2 &&
-                ((document[_0xa41d9e(0x17e)]('textsalat')[_0xa41d9e(0x169)] = 'Selamat\x20Menunaikan\x20Ibadah\x20Shalat\x20Isya'),
-                (document[_0xa41d9e(0x17e)](_0xa41d9e(0x183))[_0xa41d9e(0x17c)][_0xa41d9e(0x17f)] = _0xa41d9e(0x17b)),
-                (document[_0xa41d9e(0x17e)]('isya')[_0xa41d9e(0x17c)][_0xa41d9e(0x16a)] = _0xa41d9e(0x178)),
-                _0x222a38['classList'][_0xa41d9e(0x165)](_0xa41d9e(0x16c)),
-                _0x547eb2['classList'][_0xa41d9e(0x15d)](_0xa41d9e(0x16c)));
-          }
-        }
-      }
+  let subuh = document.getElementById('subuh').innerText;
+  let syuruq = document.getElementById('sunrise').innerText;
+  let zuhur = document.getElementById('dhuhur').innerText;
+  let ashar = document.getElementById('ashar').innerText;
+  let maghrib = document.getElementById('maghrib').innerText;
+  let isya = document.getElementById('isya').innerText;
+  const date = new Date();
+  let hours = date.getHours(); // untuk mendapatkan jam sekarang
+  let mins = date.getMinutes(); // untuk mendapatkan menit sekarang
+  let hourss = update(hours);
+  let minss = update(mins);
+  let a = hourss + ':' + minss;
+
+  let hari = date.getDay();
+  let cocok = document.getElementById('nama-orang');
+  let cocoknyacocok = document.getElementById('sebagaimuad');
+  let cucuk = document.getElementById('ustad-container');
+  let cucuknyacucuk = document.getElementById('sebagaikhot');
+
+  document.getElementById('subuh').style.backgroundColor = 'white';
+  document.getElementById('sunrise').style.backgroundColor = 'white';
+  document.getElementById('dhuhur').style.backgroundColor = 'white';
+  document.getElementById('ashar').style.backgroundColor = 'white';
+  document.getElementById('maghrib').style.backgroundColor = 'white';
+  document.getElementById('isya').style.backgroundColor = 'white';
+
+  let subh = document.getElementById('subh');
+  let syurq = document.getElementById('syurq');
+  let zuhr = document.getElementById('zuhr');
+  let ashr = document.getElementById('ashr');
+  let maghrb = document.getElementById('maghrb');
+  let isy = document.getElementById('isy');
+
+  cocok.classList.remove('hidden');
+  cocoknyacocok.classList.remove('hidden');
+
+  if (a < subuh) {
+    if (hari % 2 == 0) {
+      cocok.innerText = 'M Isa Arifin';
+    } else {
+      cocok.innerText = 'Davin Kurniawan';
     }
+    isy.classList.remove('cons');
+  } else if (a > subuh && a < syuruq) {
+    document.getElementById('textsalat').innerText = 'Selamat Menunaikan Ibadah Shalat Subuh';
+    document.getElementById('subuh').style.backgroundColor = '#e59e41';
+    document.getElementById('subuh').style.border = '1px white solid';
+    // cocok.classList.add('hidden');
+    // cocoknyacocok.classList.add('hidden');
+    subh.classList.add('cons');
+  } else if (a > syuruq && a < zuhur) {
+    document.getElementById('textsalat').innerText = 'Selamat Menunaikan Ibadah Shalat Syuruq';
+    document.getElementById('sunrise').style.backgroundColor = '#e59e41';
+    document.getElementById('sunrise').style.border = '1px white solid';
+    if (hari % 2 == 0) {
+      cocok.innerText = 'Evan El Maska';
+    } else {
+      cocok.innerText = 'Ranu Raditya D';
+    }
+    syurq.classList.add('cons');
+    subh.classList.remove('cons');
+  } else if (a > zuhur && a < ashar) {
+    document.getElementById('textsalat').innerText = 'Selamat Menunaikan Ibadah Shalat Dzuhur';
+    document.getElementById('dhuhur').style.backgroundColor = '#e59e41';
+    document.getElementById('dhuhur').style.border = '1px white solid';
+    if (hari % 2 == 0) {
+      cocok.innerText = 'M Irfan Sidqi';
+    } else {
+      cocok.innerText = 'Jovaldo Azkamura';
+    }
+    zuhr.classList.add('cons');
+    syurq.classList.remove('cons');
+  } else if (a > ashar && a < maghrib) {
+    document.getElementById('textsalat').innerText = 'Selamat Menunaikan Ibadah Shalat Ashar';
+    document.getElementById('ashar').style.backgroundColor = '#e59e41';
+    document.getElementById('ashar').style.border = '1px white solid';
+    if (hari % 2 == 0) {
+      cocok.innerText = 'Abdul Malik';
+    } else {
+      cocok.innerText = 'Danang Surya';
+    }
+    ashr.classList.add('cons');
+    zuhr.classList.remove('cons');
+  } else if (a > maghrib && a < isya) {
+    document.getElementById('textsalat').innerText = 'Selamat Menunaikan Ibadah Shalat Maghrib';
+    document.getElementById('maghrib').style.backgroundColor = '#e59e41';
+    document.getElementById('maghrib').style.border = '1px white solid';
+    if (hari % 2 == 0) {
+      cocok.innerText = 'Nafis Dzu Khairil';
+    } else {
+      cocok.innerText = 'Chesta Azka S';
+    }
+    maghrb.classList.add('cons');
+    ashr.classList.remove('cons');
+  } else if (a > isya) {
+    document.getElementById('textsalat').innerText = 'Selamat Menunaikan Ibadah Shalat Isya';
+    document.getElementById('isya').style.backgroundColor = '#e59e41';
+    document.getElementById('isya').style.border = '1px white solid';
+    isy.classList.add('cons');
+    maghrb.classList.remove('cons');
   }
 }
+
 const daftarNama = [
-  _0x117e89(0x16e),
-  'Ust.\x20Bani\x20Adam',
-  _0x117e89(0x15f),
-  'Ust.\x20Moch\x20Izzul\x20Hadi,\x20S.Pd.',
-  _0x117e89(0x15a),
-  _0x117e89(0x160),
-  _0x117e89(0x180),
-  'Ust.\x20Rayhan\x20Athala',
-  _0x117e89(0x177),
-  _0x117e89(0x168),
-  _0x117e89(0x187),
-  'Ust.\x20Ahmad\x20Ade\x20Triyono,\x20S.Pd.',
+  'Ust. Fatih',
+  'Ust. Muhammad Andrik Muzaqi',
+  'Ust. Rendy Seno Aji',
+  'Ust. Faidh',
+  'Ust. Saiful Anwar',
+  'Ust. Ahmad Ade Triyono',
+  'Ust. Ahmad Aulia',
+  'Ust. Muh Izzul Hadi Mz',
+  'Ust. Mujahid Fatih Rizki',
+  'Ust. Rayhan Athala',
+  'Ust. Ahmad Ibnul Farid',
+  'Ust. Bani Adam',
 ];
-function _0x21e4() {
-  const _0x369c94 = [
-    'textContent',
-    'maghrib',
-    '1958511KgGwLF',
-    'sebagaimuad',
-    'add',
-    'ashar',
-    '131904eOliyP',
-    'Ust.\x20Rendy\x20Seno\x20Aji,\x20S.Pd.',
-    'innerText',
-    'border',
-    'dhuhur',
-    'cons',
-    '2UmIAeS',
-    'Ust.\x20M.\x20Firdaus,\x20S.Pd.',
-    '10200nAwjNW',
-    'subuh',
-    'length',
-    'M\x20Irfan\x20Sidqi',
-    'isy',
-    'sunrise',
-    '292061BvWAGP',
-    'getHours',
-    'Ust.\x20Ahmad\x20Ibnul\x20Farid',
-    '1px\x20white\x20solid',
-    '494658jjcDWj',
-    'zuhr',
-    '#e59e41',
-    'style',
-    '1434300KCMiND',
-    'getElementById',
-    'backgroundColor',
-    'Ust.\x20Ahmad\x20Sulaksana',
-    'nama-orang',
-    'onload',
-    'isya',
-    '2330384AvWypa',
-    '8EnLPtD',
-    'syurq',
-    'Ust.\x20Saiful\x20Anwar,\x20S.E.',
-    'Chesta\x20Azka\x20S',
-    'namaOrang',
-    'classList',
-    'Danang\x20Surya',
-    '1740JAPwOj',
-    'Jovaldo\x20Azkamura',
-    'subh',
-    'Ust.\x20M\x20Andrik\x20Muzaqi,\x20S.Pd.',
-    'getDay',
-    'textsalat',
-    'remove',
-    'white',
-    'Ust.\x20Ahmad\x20Aulia',
-    'Ust.\x20Fauzan\x20Azimul\x20Fajri,\x20S.Pd.',
-  ];
-  _0x21e4 = function () {
-    return _0x369c94;
-  };
-  return _0x21e4();
-}
+
 function getNamaJumat() {
-  const _0x46375e = _0x117e89,
-    _0x381c21 = new Date(),
-    _0x443abb = _0x381c21[_0x46375e(0x15b)]();
-  if (_0x443abb === 0x5) {
-    const _0x1a31e0 = (_0x381c21['getDate']() - 0x1) % daftarNama[_0x46375e(0x171)];
-    return daftarNama[_0x1a31e0];
-  } else return '-';
+  const hariIni = new Date();
+  const hari = hariIni.getDay(); // 0 untuk Minggu, 1 untuk Senin, dst.
+
+  if (hari === 6) {
+    const indeksNama = (hariIni.getDate() - 1) % daftarNama.length;
+    return daftarNama[indeksNama];
+  } else {
+    return '-';
+  }
 }
-function _0x241e(_0x44a0b5, _0x3b1297) {
-  const _0x21e40d = _0x21e4();
-  return (
-    (_0x241e = function (_0x241e5e, _0x1f00f4) {
-      _0x241e5e = _0x241e5e - 0x156;
-      let _0x5ec6c5 = _0x21e40d[_0x241e5e];
-      return _0x5ec6c5;
-    }),
-    _0x241e(_0x44a0b5, _0x3b1297)
-  );
-}
+// Menampilkan nama pada elemen dengan id "namaOrang"
 function tampilkanNama() {
-  const _0x1a1705 = _0x117e89,
-    _0x3acefa = document[_0x1a1705(0x17e)](_0x1a1705(0x189)),
-    _0x659e09 = getNamaJumat();
-  _0x3acefa[_0x1a1705(0x161)] = _0x659e09;
+  const namaOrangElement = document.getElementById('namaOrang');
+  const nama = getNamaJumat();
+  namaOrangElement.textContent = nama;
 }
-window[_0x117e89(0x182)] = tampilkanNama;
-function update(_0x5169d0) {
-  return _0x5169d0 < 0xa ? '0' + _0x5169d0 : _0x5169d0;
+
+// Memanggil fungsi tampilkanNama setiap kali halaman dimuat
+window.onload = tampilkanNama;
+
+function update(a) {
+  if (a < 10) {
+    return '0' + a;
+  } else {
+    return a;
+  }
 }
