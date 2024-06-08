@@ -6,6 +6,10 @@
 
 /* Header Start */
 
+body{
+  overflow: hidden;
+}
+
 .bg {
   position: absolute;
   top: 0;
