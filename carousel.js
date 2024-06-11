@@ -3,7 +3,7 @@ const img = document.querySelectorAll('#imgs img');
 
 let idx = 0;
 
-let interval = setInterval(run, 9000);
+let interval = setInterval(run, 20000);
 
 let count = 0;
 
@@ -36,5 +36,5 @@ function changeImage() {
 
 function resetint() {
   clearInterval(interval);
-  interval = setInterval(run, 4000);
+  interval = setInterval(run, 10000);
 }
